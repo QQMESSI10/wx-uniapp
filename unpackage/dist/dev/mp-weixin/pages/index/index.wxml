@@ -1,0 +1,1 @@
+<view class="content"><view class="btn"><u-button vue-id="8dd740cc-1" type="primary" text="登录" bind:__l="__l"></u-button><u-button vue-id="8dd740cc-2" type="primary" plain="{{true}}" text="注册" bind:__l="__l"></u-button></view></view>
