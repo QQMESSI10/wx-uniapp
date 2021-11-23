@@ -17,13 +17,13 @@
 			}
 		},
 		onLoad() {
-			const socket = io("http://localhost:3000", { path: "/socket/" })
-			socket.on("connect", ()=> {
-				console.log(999)
-			})
-			socket.on('msg', (msg)=> {
-				console.log(msg)
-			})
+			// const socket = io("http://localhost:3000", { path: "/socket/" })
+			// socket.on("connect", ()=> {
+			// 	console.log(999)
+			// })
+			// socket.on('msg', (msg)=> {
+			// 	console.log(msg)
+			// })
 		},
 		methods: {
 			toLogin() {

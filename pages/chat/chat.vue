@@ -98,7 +98,8 @@
 			}
 			this.getInfo()
 			this.getChatHistory()
-			const socket = io("http://wxapi.qinxiang.cc", { path: "/socket/" })
+			// const socket = io("http://wxapi.qinxiang.cc", { path: "/socket/" })
+			const socket = io("http://localhost:3000", { path: "/socket/" })
 			socket.on("connect", ()=> {
 				console.log('socket已连接')
 			})

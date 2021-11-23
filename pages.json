@@ -47,10 +47,10 @@
         }
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "红旗学习小分队",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#3C9CFF",
+		"navigationBarTextStyle": "white"
 	}
 	// "tabBar": {
 	//     "color": "#7A7E83",
